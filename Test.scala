@@ -23,7 +23,7 @@ object Test {
     load csv files as tables
      */
 
-    params.Files.File.values.foreach(v => {
+    util.Files.File.values.foreach(v => {
       ReadCsv.readCsv(v,sc,sqlContext)
     })
     
