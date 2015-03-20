@@ -4,7 +4,7 @@
 
 import org.apache.spark.{SparkContext,SparkConf}
 
-import ReadCsv
+import util.ReadCsv
 
 /*
 main code
